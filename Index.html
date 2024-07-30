@@ -9,10 +9,8 @@
 <body>
     <div class="sidebar">
         <div class="photo">
-            <img src="foto-mia.jpg"alt="Samuel Andres Rodriguez Ulloa">
+            <img src="foto-mia.jpg" alt="Samuel Andres Rodriguez Ulloa">
         </div>
-    </div>
-    <div class="navbar">
         <nav>
             <ul>
                 <li><a href="#informacion-personal" onclick="showSection('informacion-personal')">Información Personal</a></li>
@@ -20,26 +18,35 @@
                 <li><a href="#experiencia" onclick="showSection('experiencia')">Experiencia</a></li>
                 <li><a href="#habilidades" onclick="showSection('habilidades')">Habilidades</a></li>
                 <li><a href="#intereses-hobbies" onclick="showSection('intereses-hobbies')">Intereses y Hobbies</a></li>
-
-
             </ul>
         </nav>
+        <hr class="divider">
+        <div class="redes">
+            <nav>
+                <ul>
+                    <li><a href="https://www.instagram.com/sam.rodri0630/" target="_blank">Instagram</a></li>
+                    <li><a href="tel:+573126540694">Teléfono</a></li>
+                    <li><a href="mailto:rodriguez.samuel2006@gmail.com">Correo Electronico</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
     <div class="content">
         <h1>Samuel Andres Rodriguez Ulloa</h1>
 
-        <div id="informacion-personal" class="section content-section">
+        <div id="informacion-personal" class="section">
             <h2>Información Personal</h2>
             <ul>
                 <li><strong>Edad:</strong> 18 años</li>
                 <li><strong>Profesión:</strong> En proceso de graduación en Ingeniería Informática</li>
                 <li><strong>Dirección:</strong> Calle 3 # 3e-116 Cajicá, Huertas de Cajicá 3</li>
-                <li><strong>Teléfono:</strong>+57 312 6540696</li>
-                <li><strong>Correo electrónico:</strong> <a href="mailto:samuelroul@unisabana.edu.co">samuelroul@unisabana.edu.co</a></li>
+                <li><strong>Teléfono:</strong> 312 6540696</li>
+                <li><strong>Correo electrónico institucional:</strong> <a href="mailto:samuelroul@unisabana.edu.co">samuelroul@unisabana.edu.co</a></li>
+                <li><strong>Correo electrónico personal:</strong> <a href="mailto:rodriguez.samuel2006@gmail.com">rodriguez.samuel2006@gmail.com</a></li>
             </ul>
         </div>
 
-        <div id="educacion" class="section content-section">
+        <div id="educacion" class="section">
             <h2>Educación</h2>
             <h3>Educación Inferior</h3>
             <ul>
@@ -57,7 +64,7 @@
             </ul>
         </div>
 
-        <div id="experiencia" class="section content-section">
+        <div id="experiencia" class="section">
             <h2>Experiencia</h2>
             <ul>
                 <li>Desarrollo de programación para funcionamiento autónomo de un carro seguidor de línea en C++ - año 2022</li>
@@ -68,17 +75,17 @@
             </ul>
         </div>
 
-        <div id="habilidades" class="section content-section">
+        <div id="habilidades" class="section">
             <h2>Habilidades</h2>
             <ul>
-                <li>Programación básica para automatización de Arduinos y elementos lógicos</li>
+                <li>Programación básica para automatización de Arduinos y elementos lógicos - año 2022</li>
                 <li>Desarrollo de algoritmos y procesos lógicos en Python, Java y C++</li>
                 <li>Conocimiento básico de HTML y C++</li>
                 <li>Desarrollo de bases de datos locales e interfaces</li>
             </ul>
         </div>
 
-        <div id="intereses-hobbies" class="section content-section">
+        <div id="intereses-hobbies" class="section">
             <h2>Intereses y Hobbies</h2>
             <ul>
                 <li>Piloto junior de automovilismo</li>
@@ -103,15 +110,10 @@
             var selectedSection = document.getElementById(sectionId);
             selectedSection.style.display = 'block';
         }
-        document.addEventListener('DOMContentLoaded', function() 
-        {
+
+        document.addEventListener('DOMContentLoaded', function() {
             showSection('informacion-personal');
-        }
-        );
+        });
     </script>
 </body>
 </html>
-
-
-
-
