@@ -8,7 +8,7 @@ body {
 }
 
 .sidebar {
-    width: 250px; /* Ancho de la barra lateral */
+    width: 230px; /* Ancho de la barra lateral */
     background-color: #000; /* Color de fondo de la barra lateral */
     color: #fff; /* Color del texto en la barra lateral */
     padding: 20px; /* Relleno dentro de la barra lateral */
