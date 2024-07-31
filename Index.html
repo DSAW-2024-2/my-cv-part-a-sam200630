@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de vida - Samuel Andres Rodriguez Ulloa</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace a una hoja de estilo externa -->
 </head>
 <body>
-    <div class="sidebar">
+    <div class="sidebar"> <!-- Barra lateral para la navegación y la foto -->
         <div class="photo">
-            <img src="foto-mia.jpg" alt="Samuel Andres Rodriguez Ulloa">
+            <img src="foto-mia.jpg" alt="Samuel Andres Rodriguez Ulloa"> <!-- Foto del perfil -->
         </div>
         <nav>
             <ul>
+                <!-- Enlaces de navegación para las diferentes secciones -->
                 <li><a href="#informacion-personal" onclick="showSection('informacion-personal')">Información Personal</a></li>
                 <li><a href="#educacion" onclick="showSection('educacion')">Educación</a></li>
                 <li><a href="#experiencia" onclick="showSection('experiencia')">Experiencia</a></li>
@@ -20,10 +21,11 @@
                 <li><a href="#intereses-hobbies" onclick="showSection('intereses-hobbies')">Intereses y Hobbies</a></li>
             </ul>
         </nav>
-        <hr class="divider">
-        <div class="redes">
+        <hr class="divider"> <!-- Línea divisoria -->
+        <div class="redes"> <!-- Sección de enlaces a redes sociales y contacto -->
             <nav>
                 <ul>
+                    <!-- Enlaces a redes sociales y medios de contacto -->
                     <li><a href="https://www.instagram.com/sam.rodri0630/" target="_blank">Instagram</a></li>
                     <li><a href="tel:+573126540694">Teléfono</a></li>
                     <li><a href="mailto:rodriguez.samuel2006@gmail.com">Correo Electronico</a></li>
@@ -31,9 +33,10 @@
             </nav>
         </div>
     </div>
-    <div class="content">
+    <div class="content"> <!-- Contenido principal de la hoja de vida -->
         <h1>Samuel Andres Rodriguez Ulloa</h1>
 
+        <!-- Sección de información personal -->
         <div id="informacion-personal" class="section">
             <h2>Información Personal</h2>
             <ul>
@@ -46,6 +49,7 @@
             </ul>
         </div>
 
+        <!-- Sección de educación -->
         <div id="educacion" class="section">
             <h2>Educación</h2>
             <h3>Educación Inferior</h3>
@@ -64,6 +68,7 @@
             </ul>
         </div>
 
+        <!-- Sección de experiencia -->
         <div id="experiencia" class="section">
             <h2>Experiencia</h2>
             <ul>
@@ -75,6 +80,7 @@
             </ul>
         </div>
 
+        <!-- Sección de habilidades -->
         <div id="habilidades" class="section">
             <h2>Habilidades</h2>
             <ul>
@@ -85,6 +91,7 @@
             </ul>
         </div>
 
+        <!-- Sección de intereses y hobbies -->
         <div id="intereses-hobbies" class="section">
             <h2>Intereses y Hobbies</h2>
             <ul>
@@ -101,6 +108,7 @@
     </div>
 
     <script>
+        // Función para mostrar la sección seleccionada y ocultar las demás
         function showSection(sectionId) {
             var sections = document.querySelectorAll('.section');
             sections.forEach(function(section) {
@@ -111,6 +119,7 @@
             selectedSection.style.display = 'block';
         }
 
+        // Mostrar la sección de información personal por defecto al cargar la página
         document.addEventListener('DOMContentLoaded', function() {
             showSection('informacion-personal');
         });
