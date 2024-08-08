@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de vida - Samuel Andres Rodriguez Ulloa</title>
-    <!--<link rel="stylesheet" href="styles.css">--> <!-- Enlace a una hoja de estilo externa -->
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace a una hoja de estilo externa -->
 </head>
 <body>
-    <div class="sidebar"> <!-- Barra lateral para la navegación y la foto -->
+    <div class="sidebar"> <!-- Barra para la navegación y la foto -->
         <div class="photo">
             <img src="foto-mia.jpg" alt="Samuel Andres Rodriguez Ulloa"> <!-- Foto del perfil -->
         </div>
         <nav>
             <ul>
-                <!-- Enlaces de navegación para las diferentes secciones -->
-                <li><a href="#informacion-personal" onclick="showSection('informacion-personal')">Información Personal</a></li>
-                <li><a href="#educacion" onclick="showSection('educacion')">Educación</a></li>
-                <li><a href="#experiencia" onclick="showSection('experiencia')">Experiencia</a></li>
-                <li><a href="#habilidades" onclick="showSection('habilidades')">Habilidades</a></li>
-                <li><a href="#intereses-hobbies" onclick="showSection('intereses-hobbies')">Intereses y Hobbies</a></li>
+                <!-- Enlaces de navegación-->
+                <li><a href="#informacion-personal">Información Personal</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#intereses-hobbies">Intereses y Hobbies</a></li>
             </ul>
         </nav>
         <hr class="divider"> <!-- Línea divisoria -->
-        <div class="redes"> <!-- Sección de enlaces a redes sociales y contacto -->
+        <div class="redes"> <!-- Redes sociales y contacto -->
             <nav>
                 <ul>
                     <!-- Enlaces a redes sociales y medios de contacto -->
@@ -44,7 +44,7 @@
                 <li><strong>Edad:</strong> 18 años</li>
                 <li><strong>Profesión:</strong> En proceso de graduación en Ingeniería Informática</li>
                 <li><strong>Dirección:</strong> Calle 3 # 3e-116 Cajicá, Huertas de Cajicá 3</li>
-                <li><strong>Teléfono:</strong><a href="tel:+573126540694"> 3126540694</a>
+                <li><strong>Teléfono:</strong><a href="tel:+573126540694"> 3126540694</a></li>
                 <li><strong>Correo electrónico institucional:</strong> <a href="mailto:samuelroul@unisabana.edu.co">samuelroul@unisabana.edu.co</a></li>
                 <li><strong>Correo electrónico personal:</strong> <a href="mailto:rodriguez.samuel2006@gmail.com">rodriguez.samuel2006@gmail.com</a></li>
             </ul>
@@ -106,24 +106,6 @@
                 <li>Bailarín informal</li>
             </ul>
         </div>
-    </div>
-
-    <!--<script>
-        // Función para mostrar la sección seleccionada y ocultar las demás
-        function showSection(sectionId) {
-            var sections = document.querySelectorAll('.section');
-            sections.forEach(function(section) {
-                section.style.display = 'none';
-            });
-
-            var selectedSection = document.getElementById(sectionId);
-            selectedSection.style.display = 'block';
-        }
-
-        // Mostrar la sección de información personal por defecto al cargar la página
-        document.addEventListener('DOMContentLoaded', function() {
-            showSection('informacion-personal');
-        });
-    </script>-->
+    </div>   
 </body>
 </html>
