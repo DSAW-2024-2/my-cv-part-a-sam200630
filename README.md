@@ -81,6 +81,11 @@ section {
 ```
 
 ## Ideas para iniciar
+
+
+
+link: https://dsaw-2024-2.github.io/my-cv-part-a-sam200630/#informacion-personal
+
 - Piensa en un diseño limpio y profesional.
 - Utiliza recursos en línea como [Google Fonts](https://fonts.google.com/) para elegir una buena tipografía.
 - Experimenta con combinaciones de colores que sean agradables a la vista.
